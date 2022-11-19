@@ -1,0 +1,39 @@
+body{
+  background-color: lightgreen;
+}
+ul a{
+  color: white;
+  text-decoration: none;
+}
+li{
+  display: inline-block;
+  height: 30px;
+  width: 120px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border: solid black;
+  background-color: darkblue;
+  cursor: pointer;
+}
+li:hover{
+  border: solid black;
+  background-color: blue;
+  color; white;
+  cursor: pointer;
+}
+img{
+  width: 350px;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+h2{
+  padding-left: 40px;
+  color: red;
+}
+p{
+  padding-left: 40px;
+}
+footer{
+  padding-left: 40px;
+}

@@ -1,0 +1,43 @@
+body{
+  background-color: lightgreen;
+}
+ul a{
+  color: white;
+  text-decoration: none;
+}
+li{
+  display: inline-block;
+  height: 30px;
+  width: 120px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border: solid black;
+  background-color: darkblue;
+  cursor: pointer;
+}
+li:hover{
+  border: solid black;
+  background-color: blue;
+  color; white;
+  cursor: pointer;
+}
+input[type=text], input[type=email], textarea, button{
+  display: block;
+  margin: 20px 0px;
+  border-radius: 8px;
+  width: 400px;
+  height: 40px;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+form{
+  padding-left: 40px;
+}
+textarea{
+  height: 200px;
+}
+button:active{
+  color: white;
+  background-color: darkblue;
+}
